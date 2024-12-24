@@ -1,0 +1,106 @@
+### Site Settings ###
+title               : "@nicholasdakin"
+description         : >-
+                      <b>Roboticists&emsp;| &emsp;AI Developer</b> <br>
+
+baseurl             :                      # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : nicholasdakin/nicholasdakin.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : nicholasdakin/nicholasdakin.github.io
+
+### Plugins ###
+plugins:
+  - jemoji
+  - jekyll-seo-tag # SEO Tag: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
+
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+#  - documentation/partials/**                           # For Documentation Only
+
+### Author Info ###
+author:
+  name              : Narendhiran Saravanane
+  image             : imgs/naren_about.png
+  # behance           : your_username
+# dribbble          : your_username
+  email             : narendhiran2000@gmail.com
+  facebook          : narendhiran.saravanane.9
+  github            : nicholasdakin
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : narendhiran2000
+  # medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : narendhiran2000
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  # elements:                                             # For Documentation Only
+  #   output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname: naren                 # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: true                                        # Set true to enable analytics
+  google:
+    tracking_id: G-0B45SLBC4K                          # your-google-tracking-id
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/nicholasdakin
+buymeacoffee:
+  enabled: false
+  username: nicholasdakin
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee! - See https://www.buymeacoffee.com/nicholasdakin"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  # - scope:                                              # For Documentation Only
+  #     path: ""                                          # For Documentation Only
+  #     type: "elements"                                  # For Documentation Only
+  #   values:                                             # For Documentation Only
+  #     layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
