@@ -1,9 +1,9 @@
 - title: BASc in Mechanical Engineering
-  company: Arizona State University, Tempe, AZ
+  company: University of British Columbia, BC, Canada
   image:
     src: /imgs/education/ubc_logo.png
-    alt: Arizona State University
-  date: Aug '22 - May '24
+    alt: ubc
+  date: Sep '18 - May '24
   description: "Career transitioned with challenging AI & ML courses. Researched on LLMs, RL, & control synthesis of Multi-Agent Systems under Prof. Zhe Xu." 
 
 #- title: Robotics Software Engineer Nanodegree
