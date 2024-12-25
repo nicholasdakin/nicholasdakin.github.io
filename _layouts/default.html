@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!--
+  naren200 Jekyll theme by Narendhiran Saravanane
+  Free for personal and commercial use under the MIT license
+  https://github.com/naren200
+-->
+
+<html lang="en" class="h-100">
+
+{% include head.html %}
+
+<body class="h-100 w-100 d-flex flex-column">
+  <main class="flex-shrink-0 container mt-5">
+    {% if page.is_landing_page != true %}
+      {% include navbar.html %}
+    {% endif %}
+    
+    {% assign project_page = page.is_project_page | default: false %}
+    {% if project_page %}
+      <div class="overlay">
+        {{ content }}
+      </div>
+    {% else %}
+      {{ content }}
+    {% endif %}
+
+  </main>
+
+  {% if page.is_landing_page != true %}
+    {% include footer.html %}
+  {% endif %}
+
+  {% include analytics.html %}
+  {% include scripts.html %}
+
+</body>
+
+<style>
+  .overlay{
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+    padding-top: 2px;
+    padding-bottom: 65px;
+  }
+</style>

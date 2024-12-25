@@ -1,0 +1,237 @@
+.search-box {
+  box-shadow: none !important;
+}
+/* Change the color of the search button */
+.btn-outline-primary {
+  color: #fff; /* Text color */
+  background-color: rgba(0, 2, 53, 0.272); //rgba(0, 0, 0, 0.318);
+  // background-color: transparent;
+}
+
+/* Change the color of the tag bar button */
+.btn.btn-outline-primary {
+  color: #a9d5f3; /* Text color */
+}
+
+/* Change the color of the tag bar button on hover */
+.btn.btn-outline-primary:hover {
+  color: #fff; /* Text color on hover */
+  background-color: rgba(0, 2, 53, 0.272); //rgba(0, 0, 0, 0.318);
+  // background-color: transparent;
+}
+
+#results-container a {
+  // background-color: rgba(0, 53, 32, 0.616);
+  color: #fff; /* Example text color */
+  border-radius: 5px; /* Example border radius */
+  padding: 10px; /* Example padding */
+}
+.post.cardblog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: left; /* Center horizontally */
+  border-radius: $rounded-borders;
+  text-decoration: none !important;
+  margin: 0px auto;
+  background-color: rgba(0, 2, 53, 0.064); //rgba(0, 0, 0, 0.318);
+  // background-color: transparent;
+  backdrop-filter: blur(100px); /* Add a blur effect */
+
+  .card-footer {
+    font-size: 14px;
+    // margin: 0 -15px -15px -15px;
+    // padding: 10px 35px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-color: rgba(0, 2, 53, 0.139); //rgba(0, 0, 0, 0.318);
+    border-radius: $rounded-borders;
+  }
+  transition: transform 400ms;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.44);
+    color: #6be9ff !important;
+  }
+}
+
+
+
+.post {
+  .post-metadata {
+    font-size: 14px;
+    margin-top: -6px;
+  }
+
+  .tag:hover {
+    background-color: $primary;
+    color: white !important;
+  }
+
+  footer {
+    font-size: 10px;
+    color: #6c757d;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-align: right;
+    margin-top: 4em;
+    margin-right: 2em;
+  }
+
+  h1,
+  h2 {
+    margin-top: 32px;
+  }
+
+  hr {
+    background: $secondary;
+  }
+
+  img:not(.emoji) {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+  }
+
+  .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 1rem;
+    width: 100%;
+    iframe {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      height: 0.15em;
+      margin-top: -0.15em;
+      width: 0;
+      background: $primary;
+      transition: width 0.35s;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+  pre {
+    background: $light;
+    border: 1px solid #ddd;
+    color: $dark;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    padding: 1em 1.5em;
+    display: block;
+    page-break-inside: avoid;
+    overflow: auto;
+    word-wrap: break-word;
+  }
+
+  code.highlighter-rouge {
+    background-color: $light;
+    color: $dark;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0.2em 0.65em;
+  }
+
+  blockquote {
+    border-left: 0.25em solid $primary;
+    color: $secondary;
+    padding: 0 1em;
+  }
+
+  table:not(.highlight) {
+    display: block;
+    overflow-x: auto;
+    margin: 1rem 0;
+
+    td {
+      border: 1px solid #ddd;
+      padding: 8px 16px;
+    }
+
+    th {
+      @extend td;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      font-weight: 500;
+      text-align: left;
+      background-color: $primary;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+  }
+}
+
+// Custom styling for inline code blocks (e.g., `code here`)
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #00000000;
+  padding: 1px 4px;
+  border-radius: 5px;
+}
+
+// Custom styling for code blocks (e.g., ``` code block ```)
+pre code {
+  display: block;
+  white-space: pre;
+  font-family: 'Courier New', monospace;
+  background-color: #ffffff00;
+  padding: 1px;
+  margin: 1px 0;
+  border-radius: 5px;
+}
+
+// Custom styling for list items with specific indentation
+body {
+  ul {
+    list-style-type: none;
+    padding-left: 20px; // Adjust the indentation as needed
+  }
+
+  li {
+    position: relative;
+    padding-left: 30px; // Adjust the indentation as needed
+    margin-bottom: 10px; // Adjust the spacing between list items as needed
+
+    &:before {
+      content: "•"; // Use a bullet point as a marker
+      position: absolute;
+      left: 0;
+    }
+  }
+}
+
+// ############################################################
+// BLOG PAGE 
+// ############################################################
+
+.overlay{
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+  padding: 30px;
+}

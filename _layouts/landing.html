@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<!--
+  naren200 Jekyll theme by Narendhiran Saravanane
+  Free for personal and commercial use under the MIT license
+  https://github.com/naren200/
+-->
+
+
+<html lang="en">
+  {% include head.html %}
+  {% include navbar.html %}
+
+<body class="landing">  
+        <div class="idcontainer">
+          <div class="div-text-l">
+            <h1 class="heading-4">
+              <strong class="bold-text">👋</strong>
+            </h1>
+            <h1 class="heading-3">
+                <strong class="h1-frontpage">Hello, I'm Naren</strong>
+            </h1>
+            <p class="body-hero">I am a Robotics & AI Engineer with a Master's degree, focusing on building software and robotic systems. I'm a gardening enthusiast and a movie lover.
+            </p>
+          </div>
+          <div class="image-column">
+              <img src="../imgs/landing/img_frontwaistup.webp" alt="Naren">
+          </div>
+            <!-- Scroll Down Button -->
+            <button class="scroll-down-btn" aria-label="Scroll Down">
+              <span>Scroll Down</span>
+              <i class="arrow down"></i> <!-- Assuming you have an arrow icon -->
+            </button>
+        </div>
+    
+        <div class="content about-me" id="o-estudio">
+        
+        <i><h3 class="experience-page-heading" style="text-align: center; color: #fff !important;">
+        Seeking immediate full-time role in Robotics, ML, RL, AI, and Vision</h3><br></i>
+        
+        <br><h1 class="about-me-page-heading" style="text-align: center;">ABOUT ME</h1>
+
+        <div class="about-me-text">
+        <p><strong>Results-driven robotics and AI engineer, graduated with distinction in Robotics and Autonomous Systems from Arizona State University. 
+          Contributed two papers on LLMs, Autonomous Driving, and Multi-Robotic Agents, demonstrating leading-edge research capabilities. 
+          Excelled in fast-paced startups environments (8+ months) bridging cutting-edge theory with practical deployment—integrating advanced AI frameworks, ROS architectures, and embedded electronics to deliver transformative, field-ready robotics solutions.</strong></p>
+        </div> 
+        <br>
+
+        <ul class="about-me-awards">
+        <li class="about-me-award">
+        <a href="https://naren200.github.io/pdfs/eyrc_certificate.pdf">
+        <img src="../imgs/landing/eyrc.png" alt="eYantra">
+        </a>
+        </li>
+        <li class="about-me-award">
+        <a href="https://naren200.github.io/imgs/news/eysip_internshipoffer.png">
+        <img src="../imgs/landing/eysip.png " alt="IITBombayOffer">
+        </a>
+        </li>
+        <li class="about-me-award">
+        <a href="https://naren200.github.io/projects/btechproj#outcomes">
+        <img src="../imgs/landing/btp.png" alt="BTPSEMIFINALISTS">
+        </a>
+        </li>
+        </ul>
+  </body>
+
+
+    <br><h1 class="experience-page-heading" style="text-align: center; color: #fff !important;">PROFESSIONAL EXPERIENCE</h1><br>
+    {% include landing/work-exp.html %}
+
+    <br><h1 class="project-page-heading" style="text-align: center; color: #fff !important;">PROJECTS</h1><br>
+    {% include landing/project.html %} <br>
+
+  <br><a href="https://docs.google.com/viewerng/viewer?url=https://naren200.github.io/pdfs/CV.pdf" style="text-align: center; color: #fff !important;"><h3 class="resume-page-heading" >Take a copy of my resume</h3></a><br>
+
+  <section class="landing-footer">
+    <br><h1 class="contact-page-heading" style="text-align: center; color: #fff !important;">CONNECT</h1>
+    {% include landing/footer.html %}
+  </section>
+  
+  <br><br>
+  <script>
+    var lastScrollTop = 0;
+    var navbar = document.querySelector(".navbar");
+    navbar.style.position = "absolute";
+    navbar.style.top = "-100px";
+    
+    window.addEventListener("scroll", function() {
+      var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (currentScroll > 900) {
+        // Scroll down past 900px, fix the navbar
+        navbar.style.position = "fixed";
+        navbar.style.top = "0";
+        navbar.style.transition = "top 0.5s ease"; // Add transition effect
+      } else {
+        // Scroll up or not past 700px, hide the navbar
+        navbar.style.position = "absolute";
+        navbar.style.top = "-100px";
+        navbar.style.transition = "none"; // Remove transition effect
+
+      }
+
+      lastScrollTop = currentScroll;
+    });
+  </script>
+
+
+  {% include analytics.html %}
+  {% include scripts.html %}
+<style>
+  iframe{
+    width: 100%; /* Set a different width for screens <= 600px */
+    height: 300px; /* Set a different height for screens <= 600px */
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+  }
+</style>
+
+</html>
+
+
+

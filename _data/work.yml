@@ -1,0 +1,55 @@
+- title: Robotics Software Engineer
+  company: Padma Agrobotics, Mesa, AZ
+  image:
+    src: /imgs/work/agrobotics.jpeg
+    alt: Agrobotics
+  date: May '24 - Oct '24
+  description: Developed and optimized ROS2-based robotic systems, integrating GPS, sensors, cameras, and pneumatics, while automating data pipelines, configuring motor control systems, and fine-tuning AI models for advanced feature detection.
+
+- title: Graduate Research Volunteer (Zhe Xu Lab)
+  company: Arizona State University, Tempe, AZ
+  image:
+    src: /imgs/work/asu-logo.png
+    alt: Zhe Xu Lab
+  date: Nov '22 - May '24
+  description: Implemented Differential Control Synthesis for Multi-Agent Systems. Devised ROS1 Nodes for perception and RL Architecture with the Hello Robot Strech R1.
+
+- title: Robotics & AI Solutions Architect Intern (AI Specialist)
+  company: Brainchip, Laguna Hills, CA
+  image:
+    src: /imgs/work/brainchip.jpg
+    alt: Brainchip
+  date: May '23 - Aug '23
+  description: Prototyped a novel Self-Balancing Bot controlled through a AI-architecture entirely from the ground up and expedited development by 40%.
+
+- title: Robotic Software Engineer Intern (Embedded C Specialist + VRep)
+  company: e-Yantra Robotic Internship Program, IIT Bombay, MoE of India
+  image:
+    src: /imgs/work/iitb-logo.png
+    alt: e-Yantra 
+  date: May '20 - Aug '20
+  description: I was among 95 students (97.76 Percentile) to be awarded the e-Yantra Summer Internship Program at IIT Bombay. Developed an innovative automation algorithm for streamlining robotic processes.
+
+- title: Robotics Engineer 
+  company: e-Yantra Robotic Educational Program, IIT Bombay, MoE of India
+  image:
+    src: /imgs/work/eyantra-logo.png
+    alt: e-Yantra
+  date: Oct '19 - Aug '20
+  description: Represented IIT Patna on National Stage & Awarded National Finalists (99.7 Percentile) at e-Yantra  funded by Ministry of Education, India. Recognized for technical excellence, offered Summer Internship at prestigious IIT Bombay.
+
+- title: Mechanical Engineer Intern
+  company: Neyveli Lignite Corporation, Neyveli, TamilNadu
+  image:
+    src: /imgs/work/nlc.png
+    alt: NLC
+  date: May '19 - Aug '19
+  description: Led team to assess and maintain water circulating pump through coatings. Research Survey on Improved circulating water pump efficiency with a payback period of < 2 months.
+
+# - title: Robotics Engineer 
+#   company: ABU Robocon 2020, India
+#   image:
+#     src: /imgs/landing/robo.webp
+#     alt: e-Yantra
+#   date: Jan '19 - Feb '20
+#   description: Directed team efforts, achieved top 15 (national) in ABU Robocon Stage 1 through innovative robot design. Engineered precise movement for the Pass Robot through Omini-wheeled robot and modeled a throwing design with Catapult mechanism using pneumatics.

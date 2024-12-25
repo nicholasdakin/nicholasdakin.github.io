@@ -1,0 +1,146 @@
+
+body {
+  font-family: "San Francisco", sans-serif;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+.bg-light,
+.badge-light {
+  &,
+  * {
+    color: $text-black !important;
+  }
+}
+
+.bg-dark,
+.badge-dark {
+  &,
+  * {
+    color: $text-white !important;
+  }
+}
+
+/* Default styles for smaller screens */
+p {
+  font-size: 18px; /* Default font size for paragraphs on smaller screens */
+} 
+h1 {
+  font-size: 30px; /* Adjust font size for h2 headings on medium screens */
+}
+h2 {
+  font-size: 24px; /* Default font size for h2 headings on smaller screens */
+}
+h3 {
+  font-size: 22px; /* Adjust font size for h2 headings on medium screens */
+}
+h4 {
+  font-size: 20px; /* Default font size for h2 headings on smaller screens */
+}
+h5 {
+  font-size: 18px; /* Default font size for h2 headings on smaller screens */
+}
+h6 {
+  font-size: 16px; /* Default font size for h6 headings on smaller screens */
+}
+img.emoji {
+  width: 20px; /* Default width for smaller screens */
+  height: 20px; /* Default height for smaller screens */
+}
+
+
+/* Medium-sized screens (adjust the max-width as needed) */
+@media (min-width: 768px) {
+  p {
+    font-size: 21px; /* Adjust font size for paragraphs on medium screens */
+  }
+  h1 {
+    font-size: 36px; /* Adjust font size for h2 headings on medium screens */
+  }
+  h2 {
+    font-size: 34px; /* Adjust font size for h2 headings on medium screens */
+  }
+  h3 {
+    font-size: 32px; /* Adjust font size for h2 headings on medium screens */
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 28px; /* Adjust font size for h6 headings on larger screens */
+  }
+  h6 {
+    font-size: 26px; /* Adjust font size for h6 headings on medium screens */
+  }
+  img.emoji {
+    width: 30px; /* Adjust width for medium-sized screens */
+    height: 30px; /* Adjust height for medium-sized screens */
+  }
+}
+
+/* Larger screens (adjust the min-width as needed) */
+@media (min-width: 1200px) {
+  p {
+    font-size: 24px; /* Adjust font size for paragraphs on larger screens */
+  }
+  
+  h1 {
+    font-size: 39px; /* Adjust font size for h2 headings on medium screens */
+  }
+
+  h2 {
+    font-size: 36px; /* Adjust font size for h2 headings on larger screens */
+  }
+  h3 {
+    font-size: 34px; /* Adjust font size for h2 headings on medium screens */
+  }
+  h4 {
+    font-size: 32px; /* Adjust font size for h6 headings on larger screens */
+  }
+  h5 {
+    font-size: 30px; /* Adjust font size for h6 headings on larger screens */
+  }
+  h6 {
+    font-size: 28px; /* Adjust font size for h6 headings on larger screens */
+  }
+  img.emoji {
+    width: 35px; /* Adjust width for larger screens */
+    height: 35px; /* Adjust height for larger screens */
+  }
+
+}
+
+/* Default image size for smaller screens */
+img.profilepic {
+  width: 180px; /* Default image width for smaller screens */
+  height: 180px; /* Default image height for smaller screens */
+}
+
+/* Adjust image size for medium-sized screens (adjust the width and height as needed) */
+@media (min-width: 800px) {
+  img.profilepic {
+    width: 250px; /* Adjust image width for medium-sized screens */
+    height: 250px; /* Adjust image height for medium-sized screens */
+  }
+}
+
+/* Adjust image size for larger screens (adjust the width and height as needed) */
+@media (min-width: 1200px) {
+  img.profilepic {
+    width: 300px; /* Adjust image width for larger screens */
+    height: 300px; /* Adjust image height for larger screens */
+  }
+}
+
+#academic-pursuits,
+#robotics-achievements,
+#sets-apart {
+    background-color: rgba(0, 2, 53, 0.272); //rgba(0, 0, 0, 0.318);
+    padding: 20px;
+    border-radius: 18px; /* Adjust border radius */
+    padding: 10px 20px; /* Adjust padding */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    backdrop-filter: blur(100px); /* Add a blur effect */
+}
