@@ -1,8 +1,8 @@
 - title: Mechanical Engineering Co-op
   company: Noram Engineering and Constructors, BC, Canada
   image:
-    src: /imgs/work/NORAM_full.JPG
-    alt: Noram2
+    src: /imgs/work/Supermileage.jpg
+    alt: Noram
   date: May '23 - Aug '23
   description: 4-month co-op, working primaryily in Lithium Electrolysis process systems. \n Redesigned pressure vessels for an electrolysis system, reducing vessel count by 50%. \n Creating a detailed assembly manual, streamlining electrolytic cell assembly. \n Analyzed and validated P&IDs, resulting in plant design specification accuracy. \n Specified pumps, heat exchangers, and various components for process systems.
 
@@ -10,7 +10,7 @@
   company: ContainerWest Manufactring, BC, Canada
   image:
     src: /imgs/work/ContainerWest_full.JFIF
-    alt: ContainerWest2
+    alt: ContainerWest
   date: Sept '22 - Apr '23
   description: 8-month co-op, retroffitng 10-40ft shippping containers to usable, portable buildings. \n Led the design of portable containerized buildings, expanding the product portfolio by 10%. \n Integrated building systems, including electrical, piping, and HVAC. \n Modeled parts in SolidWorks (DFM) and created detailed engineering drawings with GD&T. \n Conducted cost estimation and scheduling, consistently delivering projects on time and within budget.
 
@@ -18,7 +18,7 @@
   company: AVL Fuel Cell, BC, Canada
   image:
     src: /imgs/work/avl_full.JFIF
-    alt: AVL2 
+    alt: AVL
   date: Sept '20 - Aug '21
   description: 8-month co-op extended to 12, working on the development of Hydrogen Fuel cells for automotive applications. \n Designed and fabricated custom tooling hardware using 3D modeling, drafting, and mach. \n Performed detailed assembly of hydrogen fuel cell stacks, comprising MEAs, bipolar plates, and unit cells. \n Performed root cause analysis on faulty components, driving improvements in fuel cell performance. \n Used PTC Creo and 3D printing to prototype fuel cell hardware, reducing component costs by 60%.
 
