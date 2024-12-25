@@ -14,24 +14,20 @@ weight: 1
 
 <div class="column">
   <div>
-    <img class="profilepic" style="float: center; border-radius: 50%;" src="../imgs/naren_about.jpeg" alt="Naren" title="Naren (Neh-R-ehN)" />
+    <img class="profilepic" style="float: center; border-radius: 50%;" src="../imgs/nicholas_about.jpeg" alt="Nick" title="Nick" />
   </div>
 <br>
 
 <div class="column" style="width: 100%; margin-left: 0px">
   <div id="academic-pursuits" class="background-block">
-    <p  >Hello there <img  id="rotating-image" class="emoji" title=":wave:" alt=":wave:" src="../imgs/hi.webp" height="50" width="50"> I am <b>Narendhiran</b>. My friends call me Naren (Neh-R-ehN). 
+    <p  >Hello there <img  id="rotating-image" class="emoji" title=":wave:" alt=":wave:" src="../imgs/hi.webp" height="50" width="50"> I am <b>Nicholas</b>. My friends call me Nick. 
     <img class="emoji" title=":play:" alt=":play:" src="../imgs/loudspeaker_3d.png" height="30" width="30" style="vertical-align: middle; cursor: pointer;" id="play-button">  </p>
   </div>
   <br> <br>
   <div id="academic-pursuits" class="background-block">
     <h1><b>Academic and Robotics Pursuits</b></h1>
-    <p>
-    I'm living my dream, studying at <a href="https://robotics.asu.edu/">A.S.U. Robotics @ A.S.U.</a>, and working on Autonomous Driving on Carla Simulator. Pursuing an <a href="https://ras.engineering.asu.edu/">M.S. in Robotics and Autonomous Systems</a>, Batch of 2024, I aim to advance robotic capabilities in unstructured environments with a focus on perception, Machine Learning, and Aerial Robotics. 
-    </p>
-    <br>
     <p >
-    I graduated from <a href="https://www.iitp.ac.in/">IIT Patna</a> in 2022 with a Bachelor’s in <a href="https://www.iitp.ac.in/index.php/departments/engineering-technology/mechanical-engineering/">Mechanical Engineering</a>. During my program, I developed a Motion Prediction model for a Towed floating object under the guidance of <a href="https://www.iitp.ac.in/index.php/people-6/faculty/2-uncategorised/241-view-profile-38">Prof. Subrata Kumar</a>. My Bachelor's Capstone project earned recognition as an Undergraduate Project Finalist for its technical excellence in this area.
+    I graduated from the <a href="https://www.iitp.ac.in/">University of British Columbia</a> in 2024 with a Bachelor’s in <a href="https://mech.ubc.ca/undergraduate/">Mechanical Engineering</a>. During my program, I developed a Motion Prediction model for a Towed floating object under the guidance of <a href="https://www.iitp.ac.in/index.php/people-6/faculty/2-uncategorised/241-view-profile-38">Prof. Subrata Kumar</a>. My Bachelor's Capstone project earned recognition as an Undergraduate Project Finalist for its technical excellence in this area.
     </p>
     <h6   id="achievements"><b>Achievements and Research on Robotics</b></h6>
     <br>

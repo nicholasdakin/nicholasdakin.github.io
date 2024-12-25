@@ -25,22 +25,22 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Nicholas Dakin
   image             : imgs/naren_about.png
-  # behance           : your_username
+# behance           : your_username
 # dribbble          : your_username
-  email             : narendhiran2000@gmail.com
-  facebook          : narendhiran.saravanane.9
+  email             : nicholasdakin63@gmail.com
+# facebook          : narendhiran.saravanane.9
   github            : nicholasdakin
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : narendhiran2000
+  linkedin          : nicholasdakin
   # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : narendhiran2000
+# twitter           : narendhiran2000
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
@@ -61,14 +61,14 @@ collections:
 
 ### Disqus ###
 disqus:
-  shortname: naren                 # Your website Shortname on disqus
+  shortname: Nick                 # Your website Shortname on disqus
 
 
 ### Analytics ###
 analytics:
   enabled: true                                        # Set true to enable analytics
   google:
-    tracking_id: G-0B45SLBC4K                          # your-google-tracking-id
+    tracking_id: G-TTW9PGWXFX                          # your-google-tracking-id
 
 ### Buy me a coffee ###
 # See https://www.buymeacoffee.com/nicholasdakin
