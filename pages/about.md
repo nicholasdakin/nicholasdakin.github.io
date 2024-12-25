@@ -14,7 +14,7 @@ weight: 1
 
 <div class="column">
   <div>
-    <img class="profilepic" style="float: center; border-radius: 50%;" src="../imgs/nicholas_about.jpeg" alt="Nick" title="Nick" />
+    <img class="profilepic" style="float: center; border-radius: 75%;" src="../imgs/nicholas_about.jpeg" alt="Nick" title="Nick" />
   </div>
 <br>
 
@@ -78,7 +78,7 @@ weight: 1
 </div>
 
 <br><br><br>
-<center><font size="3">This country counter shows visits to this landing page since Sep 19, 2023. <a href="https://www.revolvermaps.com/">Credits</a></font></center>
+<!--<center><font size="3">This country counter shows visits to this landing page since Sep 19, 2023. <a href="https://www.revolvermaps.com/">Credits</a></font></center>-->
 {% include globe.html %}
 
 
