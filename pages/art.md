@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Experience
-weight: 4
+weight: 3
 permalink: /experience/
 ---
 
